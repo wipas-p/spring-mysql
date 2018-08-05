@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+
+metadata:
+  name: mysqldb
+spec:
+ type: NodePort
+ ports:
+  - port: 3306
+ selector:
+  app: mysql
