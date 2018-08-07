@@ -25,7 +25,7 @@ spec:
             - name: MYSQL_PASSWORD
               value: password
             - name: MYSQL_DATABASE
-              value: bootmode
+              value: bootexample
           ports:
             - containerPort: 3306
-              name: mysql
+              name: mysqldb
